@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.main {
+  width: 940px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.balloon {
+  float: left;
+  margin-right: 20px;
+} 
+
+.bottomright {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.bottomleft {
+  float: left;
+}
+
+.lastbottom {
+  float: left;
+}
 
 /* 回答はここに書いてね */

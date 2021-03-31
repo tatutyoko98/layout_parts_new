@@ -2,4 +2,63 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.main {
+  width: 100%;
+  background-color: #eff3f4;
+  padding: 20px;
+}
+
+.top {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.top1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.topleft {
+  display: table-cell;
+  width: 100px;
+  background-color: #fdc8b8;
+}
+
+.topcenter {
+  display: table-cell;
+  background-color: #e0abd9;
+}
+
+.topright {
+  display: table-cell;
+  width: 100px;
+  background-color: #b6d8ed;
+}
+
+/*ここから下段*/
+
+.bottom {
+  display: table;
+  width: 100%;
+}
+
+.bottom1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.bottomleft {
+  display: table-cell;
+  background-color: #e5d32e;
+}
+
+.bottomcenter {
+  display: table-cell;
+  background-color: #ec8f9a;
+}
+
+.bottomright {
+  display: table-cell;
+  width: 500px;
+  background-color: #8fdcad;
+}
