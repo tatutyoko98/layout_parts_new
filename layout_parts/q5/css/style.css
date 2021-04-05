@@ -2,10 +2,6 @@
 
 /* 回答はここに書いてね */
 
-*::before, *::after {
-  box-sizing: border-box;
-}
-
 .bigbox {
   width: 500px;
   height: 500px;
@@ -55,6 +51,18 @@
   z-index: 12;
 }
 
+.box1::before {
+  content: "";
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color: #7084de;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
 .box7 {
   background-color: #deae70;
   width: 100px;
@@ -99,9 +107,8 @@
   position: absolute;
   top: 120px;
   right: 120px;
-
-  z-index: auto;
 }
+
 
 .box3 {
   background-color: #d0ecea;
