@@ -12,29 +12,31 @@
   margin: 0 auto;
   background-color: #eff3f4;
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.texttop1 {
+  word-break: break-all;
   font-size: 18px;
   line-height: 22px;
-  box-sizing: border-box;
+}
+
+.textbottom {
   word-break: break-all;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .balloon {
   float: left;
   margin-right: 20px;
+  margin-bottom: 10px;
 } 
 
-.bottomright {
+.lantarn {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
-}
-
-.bottomleft {
-  float: left;
-}
-
-.lastbottom {
-  float: left;
 }
 
 /* 回答はここに書いてね */

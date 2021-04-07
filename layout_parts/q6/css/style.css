@@ -5,13 +5,15 @@
 /*q1開始*/
 
 .textbox {
+  text-align: center;
+}
+
+.text1 {
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0px;
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
 }
 
 .marginbox {
@@ -28,12 +30,12 @@
 
 .tablebigbox {
   display: table;
-  text-align:center;
 }
 
 .tablebox {
   display: table-cell;
   vertical-align: middle;
+  text-align:center;
 }
 
 .table1 {
