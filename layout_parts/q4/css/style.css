@@ -26,31 +26,31 @@
   display: table-cell;
 }
 
-.topleft {
+.orange {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.topcenter {
+.purple {
   background-color: #e0abd9;
 }
 
-.topright {
+.lightblue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
 /*ここから下段*/
 
-.bottomleft {
+.yellow {
   background-color: #e5d32e;
 }
 
-.bottomcenter {
+.red {
   background-color: #ec8f9a;
 }
 
-.bottomright {
+.green {
   width: 500px;
   background-color: #8fdcad;
 }

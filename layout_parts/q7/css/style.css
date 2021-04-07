@@ -2,4 +2,21 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left1 {
+  width: 225px;
+  float: left;
+  margin-right: 50px;
+}
+
+.right1 {
+  width: 225px;
+  float: right;
+}
+
 /* 回答はここに書いてね */
