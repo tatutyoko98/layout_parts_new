@@ -2,21 +2,31 @@
 
 /* 回答はここに書いてね */
 
+/* フロート */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.left1 {
+.ftext {
+  font-size: 16px;
   width: 225px;
+  box-sizing: border-box;
+}
+
+.floatsmall {
   float: left;
   margin-right: 50px;
 }
 
-.right1 {
-  width: 225px;
+.floatbig {
   float: right;
 }
+/* フロート */
+/* テーブル */
+
+
+/* テーブル */
 
 /* 回答はここに書いてね */

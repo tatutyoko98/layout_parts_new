@@ -10,7 +10,8 @@
   border-spacing: 0;
 }
 
- .bigbox th,td {         
+ .bigbox  th,
+ .bigbox td {         
   padding: 10px;
   text-align: center;
   border: solid 1px;
@@ -23,17 +24,17 @@
   line-height: 26px;
 }
 
-tbody tr:last-child {
+.bigbox tbody tr:last-child {
   border-top: dashed 2px #000;
 }
 
-td {
+.bigbox tbody td {
   font-size: 16px;
   line-height: 22px;
   border: 1px #dedede solid;
 }
 
-tr:nth-child(even){
+.bigbox tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
