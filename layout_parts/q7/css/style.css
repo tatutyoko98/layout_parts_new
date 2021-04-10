@@ -25,8 +25,40 @@
 }
 /* フロート */
 /* テーブル */
+.tablebox {
+  display: table;
+  width: 500px;
+}
 
+.tablesmall:first-child {
+  padding-left: 0;
+}
 
+.tablesmall {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  width: 225px;
+}
 /* テーブル */
+/* inlineblock */
+
+.inlinebox {
+  width: 500px;
+}
+
+.inlinewhite {
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.inlinewhite:first-child {
+  margin-left: 0px;
+}
+
+/* inlineblock */
 
 /* 回答はここに書いてね */
